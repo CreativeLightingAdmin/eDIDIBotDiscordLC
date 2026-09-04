@@ -1,0 +1,18 @@
+{
+  "name": "edidibot",
+  "version": "2.0.0",
+  "description": "Discord bot for controlling eDIDIO lighting controllers",
+  "main": "index.js",
+  "author": "Michael Howes",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "deploy:guild": "node deploy-commands.js --guild"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.6.1",
+    "google-protobuf": "^3.7.1"
+  }
+}
